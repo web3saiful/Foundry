@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {Test,console} from "forge-std/Test.sol";
 import{stdError} from "forge-std/stdError.sol";
 import {SimpleCounter} from "../src/SimpleCounter.sol";
-
+import {ERC20} from "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 contract CounterTest is Test {
     SimpleCounter public counter;
 
